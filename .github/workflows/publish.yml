@@ -18,6 +18,7 @@ jobs:
           node -v
           npm -v
           npm install -f
+          rm -rf browser-test/.gitignore
           npm run browser:compile
 
       - name: Deploy
