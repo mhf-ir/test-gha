@@ -6,6 +6,11 @@ const YEAR_OFFSET = 100;
 
 const START_DATE = new Date();
 
+if (Environment.test() === false) {
+  // eslint-disable-next-line no-alert, no-undef
+  alert(`Your browser not support Intl well.`);
+}
+
 const FORMAT_TOKENS = [
   'a',
   'c',
