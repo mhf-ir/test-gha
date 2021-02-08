@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Install and Build
         run: |
-          nodejs -v
+          node -v
           npm -v
           npm install -f
           npm run browser:compile
