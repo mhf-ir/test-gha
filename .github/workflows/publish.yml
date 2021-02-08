@@ -19,7 +19,6 @@ jobs:
           npm -v
           npm install -f
           npm run browser:compile
-          npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.0.0
