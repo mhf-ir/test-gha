@@ -1,0 +1,24 @@
+name: Publish
+
+on:
+  release:
+    types: [published, edited]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install and Build
+        run: |
+          nodejs -v
+          npm -v
+          npm install -f
+          npm run browser:compile
+          npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: browser-test # The folder the action should deploy.
