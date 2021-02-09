@@ -1,21 +1,19 @@
 /* eslint-disable import/no-extraneous-dependencies */
-require('@formatjs/intl-locale/polyfill');
-require('@formatjs/intl-displaynames/polyfill');
-require('@formatjs/intl-displaynames/locale-data/en');
-require('@formatjs/intl-getcanonicallocales');
 
 const { Locale } = require('../lib/Locale');
 const { Environment } = require('../lib/Environment');
 const { Calendar } = require('../lib/Calendar');
 
+const TEST_ENV = Environment.test();
+
+require('@formatjs/intl-locale/polyfill');
+require('@formatjs/intl-displaynames/polyfill');
+require('@formatjs/intl-displaynames/locale-data/en');
+require('@formatjs/intl-getcanonicallocales');
+
 const YEAR_OFFSET = 100;
 
 const START_DATE = new Date();
-
-if (Environment.test() === false) {
-  // eslint-disable-next-line no-alert, no-undef
-  alert(`Your browser not support Intl well.`);
-}
 
 const FORMAT_TOKENS = [
   'a',
@@ -99,7 +97,7 @@ new Vue({
   el: '#app',
   data: {
     locale: new Locale('en-US'),
-    supportable: Environment.test(),
+    supportable: TEST_ENV,
     formats: [],
     lang: '',
     country: '',
