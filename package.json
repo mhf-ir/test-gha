@@ -41,6 +41,9 @@
     "luxon": "^1"
   },
   "devDependencies": {
+    "@formatjs/intl-displaynames": "^4",
+    "@formatjs/intl-getcanonicallocales": "^1",
+    "@formatjs/intl-locale": "^2",
     "@types/jest": "^26",
     "@types/node": "14",
     "browserify": "^17",
