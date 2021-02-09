@@ -1,3 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
+require('@formatjs/intl-locale/polyfill');
+require('@formatjs/intl-displaynames/polyfill');
+require('@formatjs/intl-displaynames/locale-data/en');
+require('@formatjs/intl-getcanonicallocales');
+
 const { Locale } = require('../lib/Locale');
 const { Environment } = require('../lib/Environment');
 const { Calendar } = require('../lib/Calendar');
