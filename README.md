@@ -1,5 +1,6 @@
 # javascript helpers
 
+
 <!-- [![aasaam](https://flat.badgen.net/badge/aasaam/software%20development%20group/0277bd?labelColor=000000&icon=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Faasaam%2Finformation%2Flogo%2Faasaam.svg)](https://github.com/aasaam)
 
 [![travis](https://flat.badgen.net/travisjavascript-helpers)](https://travis-ci.orgjavascript-helpers)
@@ -11,7 +12,12 @@
 [![open-issues](https://flat.badgen.net/github/open-issuesjavascript-helpers)](https://github.comjavascript-helpers/issues)
 [![open-pull-requests](https://flat.badgen.net/github/open-prsjavascript-helpers)](https://github.comjavascript-helpers/pulls)
 [![npm](https://flat.badgen.net/npm/v/@js-helper)](https://www.npmjs.com/package/@js-helper)
-[![types](https://flat.badgen.net/npm/types/@aasaam/information)](https://www.npmjs.com/package/@aasaam/information)
+[![types](https://flat.badgen.net/npm/types/@aasaam/information)](https://www.npmjs.com/p
+
+## New version
+
+see (aasaam/js-lib)[https://github.com/aasaam/js-lib]
+ackage/@aasaam/information)
 [![license](https://flat.badgen.net/github/licensejavascript-helpers)](./LICENSE)
 
 ## Requirements
