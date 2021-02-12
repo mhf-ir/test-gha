@@ -4,8 +4,8 @@ This is test version
 
 ## New version
 
-see (aasaam/js-lib)[https://github.com/aasaam/js-lib]
-ackage/@aasaam/information)
+see [aasaam/js-lib](https://github.com/aasaam/js-lib)
+
 
 ## Requirements
 
