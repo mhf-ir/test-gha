@@ -18,6 +18,7 @@
 <a href="https://www.npmjs.com/package/@aasaam/js-lib"><img src="https://img.shields.io/npm/v/@aasaam/js-lib" alt="npm"></a>
 <a href="https://www.npmjs.com/package/@aasaam/js-lib"><img src="https://img.shields.io/npm/types/@aasaam/js-lib" alt="types"></a>
     <!-- etc -->
+    <br />
 <a href="https://sonarcloud.io/dashboard?id=aasaam_js-lib"><img src="https://sonarcloud.io/api/project_badges/measure?project=aasaam_js-lib&amp;metric=alert_status" alt="quality-gate-status"></a>
   </p>
 </div>
