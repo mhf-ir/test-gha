@@ -1,11 +1,11 @@
-<div align="center">
-  <h1>
+<div>
+  <h1 align="left">
   	Test JavaScript Library
   </h1>
-  <p>
+  <p align="left">
   	Utilities for build better stuff
   </p>
-  <p>
+  <p align="right">
     <!-- github actions -->
     <a href="https://github.com/aasaam/js-lib/actions?query=workflow%3Abuild"><img src="https://img.shields.io/github/workflow/status/aasaam/js-lib/build" alt="github-workflow-status-build"></a>
     <a href="https://coveralls.io/github/aasaam/js-lib"><img src="https://img.shields.io/coveralls/github/aasaam/js-lib" alt="coveralls"></a>
