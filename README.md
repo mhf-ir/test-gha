@@ -9,6 +9,7 @@
     <!-- github actions -->
     <a href="https://github.com/aasaam/js-lib/actions?query=workflow%3Abuild"><img src="https://img.shields.io/github/workflow/status/aasaam/js-lib/build" alt="github-workflow-status-build"></a>
     <a href="https://coveralls.io/github/aasaam/js-lib"><img src="https://img.shields.io/coveralls/github/aasaam/js-lib" alt="coveralls"></a>
+    <a href="https://github.com/mhf-ir/test-gha/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/mhf-ir/test-gha"></a>
     <br />
     <!-- npm package -->
 <a href="https://david-dm.org/aasaam/js-lib"><img src="https://img.shields.io/david/aasaam/js-lib" alt="dependencies"></a>
@@ -20,7 +21,6 @@
     <!-- etc -->
     <br />
 <a href="https://sonarcloud.io/dashboard?id=aasaam_js-lib"><img src="https://sonarcloud.io/api/project_badges/measure?project=aasaam_js-lib&amp;metric=alert_status" alt="quality-gate-status"></a>
-    <a href="https://github.com/mhf-ir/test-gha/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/mhf-ir/test-gha"></a>
   </p>
 </div>
 
