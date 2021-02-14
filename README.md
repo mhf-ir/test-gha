@@ -20,6 +20,7 @@
     <!-- etc -->
     <br />
 <a href="https://sonarcloud.io/dashboard?id=aasaam_js-lib"><img src="https://sonarcloud.io/api/project_badges/measure?project=aasaam_js-lib&amp;metric=alert_status" alt="quality-gate-status"></a>
+    <a href="https://github.com/mhf-ir/test-gha/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/mhf-ir/test-gha"></a>
   </p>
 </div>
 
